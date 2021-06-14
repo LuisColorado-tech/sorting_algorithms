@@ -10,6 +10,7 @@
 void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j, min_ind, temp;
+
 	if (array == NULL)
 		return;
 
