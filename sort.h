@@ -22,7 +22,8 @@ typedef struct listint_s
 /*functions from holberton*/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-
+void swapem(listint_t *l, listint_t *r, listint_t **h);
+void cocktail_sort_list(listint_t **list);
 
 
 /*task funtion*/
